@@ -3,7 +3,15 @@ Farms'.
 
 Authors: Emma Koch Jørgensen and Freja Rølle Jakobsen
 
-The files in this repository is made up of Python and CSV files.
+The files in this repository is made up of CSV and Python files.
+
+CSV files:
+- 'UTM_coordinates_Horn.csv' contains latitude and longitude coordinates, elevation, UTM easting and UTM northing coordinates. Obtained from EMODnet.
+- 'UTM_filter_coordinates_Thor.csv' contains latitude and longitude coordinates, elevation, UTM easting and UTM northing coordinates. Obtained from EMODnet, but filtered to the specific site.
+- 'Optimized_coordinates_3a_Horn.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 3a for Horns Rev 1
+- 'Optimized_coordinates_3b_Horn.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 3b for Horns Rev 1
+- 'Optimized_coordinates_3a_Thor.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 3a for Thor Wind Farm
+- 'Optimized_coordinates_3b_Thor.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 3b for Thor Wind Farm
 
 Python files:
 - '1_Horn.py' contains the code for scenario 1, an optimization of LCoE at Horns Rev 1, focusing solely on steel usage in the foundation.
@@ -18,12 +26,3 @@ Python files:
 - '3b_horn_cables.py' contains the code for plotting the cable layout in scenario 3b for Horns Rev 1. It is configured to run on Google Colab and requires access to the respective CSV file.
 - '3a_thor_cables.py' contains the code for plotting the cable layout in scenario 3a for Thor Wind Farm. It is configured to run on Google Colab and requires access to the respective CSV file.
 - '3b_thor_cables.py' contains the code for plotting the cable layout in scenario 3b for Thor Wind Farm. It is configured to run on Google Colab and requires access to the respective CSV file.
-
-
-CSV files:
-- 'UTM_coordinates_Horn.csv' contains latitude and longitude coordinates, elevation, UTM easting and UTM northing coordinates. Obtained from EMODnet.
-- 'UTM_filter_coordinates_Thor.csv' contains latitude and longitude coordinates, elevation, UTM easting and UTM northing coordinates. Obtained from EMODnet, but filtered to the specific site.
-- 'Optimized_coordinates_3a_Horn.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 3a for Horns Rev 1
-- 'Optimized_coordinates_3b_Horn.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 3b for Horns Rev 1
-- 'Optimized_coordinates_3a_Thor.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 3a for Thor Wind Farm
-- 'Optimized_coordinates_3b_Thor.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 3b for Thor Wind Farm
