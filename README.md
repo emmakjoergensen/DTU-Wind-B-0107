@@ -16,12 +16,12 @@ CSV files:
 Python files:
 - '1_Horn.py' contains the code for scenario 1, an optimization of LCoE at Horns Rev 1, focusing solely on steel usage in the foundation.
 - '2_Horn.py' contains the code for scenario 2, an optimization of LCoE at Horns Rev 1, including a CO2eq tax to the total steel mass.
-- '3a_Horn.py' contains the code for scenario 3a, an optimization of LCoE at Horns Rev 1, incorporating inter-array cables with a our proposed substation position, and including CO2eq tax in the total steel mass and cables.
-- '3b_Horn.py' contains the code for scenario 3b, an optimization of LCoE at Horns Rev 1, incorporating inter-array cables with the current substation position, and including CO2eq tax in the total steel mass and cables.
+- '3a_Horn.py' contains the code for scenario 3a, an optimization of LCoE at Horns Rev 1, incorporating inter-array cables with the current substation position, and including CO2eq tax in the total steel mass and cables.
+- '3b_Horn.py' contains the code for scenario 3b, an optimization of LCoE at Horns Rev 1, incorporating inter-array cables with a our proposed substation position, and including CO2eq tax in the total steel mass and cables. 
 - '1_Thor.py' contains the code for scenario 1, an optimization of LCoE at Thor Wind Farm, focusing solely on steel usage in the foundation.
 - '2_Thor.py' contains the code for scenario 2, an optimization of LCoE at Thor Wind Farm, including a CO2eq tax to the total steel mass.
-- '3a_Thor.py' contains the code for scenario 3a, an optimization of LCoE at Thor Wind Farm, incorporating inter-array cables with our proposed substation position, and including CO2eq tax in the total steel mass and cables.
-- '3b_Thor.py' contains the code for scenario 3b, an optimization of LCoE at Thor Wind Farm, incorporating inter-array cables with a planned substation position, and including CO2eq tax in the total steel mass and cables.
+- '3a_Thor.py' contains the code for scenario 3a, an optimization of LCoE at Thor Wind Farm, incorporating inter-array cables with a planned substation position, and including CO2eq tax in the total steel mass and cables.
+- '3b_Thor.py' contains the code for scenario 3b, an optimization of LCoE at Thor Wind Farm, incorporating inter-array cables with our proposed substation position, and including CO2eq tax in the total steel mass and cables.
 - '3a_horn_cables.py' contains the code for plotting the cable layout in scenario 3a for Horns Rev 1. It is configured to run on Google Colab and requires access to the respective CSV file.
 - '3b_horn_cables.py' contains the code for plotting the cable layout in scenario 3b for Horns Rev 1. It is configured to run on Google Colab and requires access to the respective CSV file.
 - '3a_thor_cables.py' contains the code for plotting the cable layout in scenario 3a for Thor Wind Farm. It is configured to run on Google Colab and requires access to the respective CSV file.
