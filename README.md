@@ -8,21 +8,29 @@ The files in this repository is made up of CSV and Python files.
 CSV files:
 - 'UTM_coordinates_Horn.csv' contains latitude and longitude coordinates, elevation, UTM easting and UTM northing coordinates. Obtained from EMODnet.
 - 'UTM_filter_coordinates_Thor.csv' contains latitude and longitude coordinates, elevation, UTM easting and UTM northing coordinates. Obtained from EMODnet, but filtered to the specific site.
-- 'Optimized_coordinates_3a_Horn.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 3a for Horns Rev 1
-- 'Optimized_coordinates_3b_Horn.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 3b for Horns Rev 1
-- 'Optimized_coordinates_3a_Thor.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 3a for Thor Wind Farm
-- 'Optimized_coordinates_3b_Thor.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 3b for Thor Wind Farm
+- 'Optimized_coordinates_S3HR1.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 3 Horn Base + Cables.
+- 'Optimized_coordinates_S4AHR1.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 4A Horn Base + CO2eq tax + Cables.
+- 'Optimized_coordinates_S4BHR1.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 4B Horn Base + CO2eq tax + Cables.
+- 'Optimized_coordinates_S7T.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 7 Thor Base + Cables.
+- 'Optimized_coordinates_S8AT.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 4A Thor Base + CO2eq tax + Cables.
+- 'Optimized_coordinates_S4BT.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 4B Thor Base + CO2eq tax + Cables.
+
 
 Python files:
-- '1_Horn.py' contains the code for scenario 1, an optimization of LCoE at Horns Rev 1, focusing solely on steel usage in the foundation.
-- '2_Horn.py' contains the code for scenario 2, an optimization of LCoE at Horns Rev 1, including a CO2eq tax to the total steel mass.
-- '3a_Horn.py' contains the code for scenario 3a, an optimization of LCoE at Horns Rev 1, incorporating inter-array cables with the current substation position, and including CO2eq tax in the total steel mass and cables.
-- '3b_Horn.py' contains the code for scenario 3b, an optimization of LCoE at Horns Rev 1, incorporating inter-array cables with a our proposed substation position, and including CO2eq tax in the total steel mass and cables. 
-- '1_Thor.py' contains the code for scenario 1, an optimization of LCoE at Thor Wind Farm, focusing solely on steel usage in the foundation.
-- '2_Thor.py' contains the code for scenario 2, an optimization of LCoE at Thor Wind Farm, including a CO2eq tax to the total steel mass.
-- '3a_Thor.py' contains the code for scenario 3a, an optimization of LCoE at Thor Wind Farm, incorporating inter-array cables with a planned substation position, and including CO2eq tax in the total steel mass and cables.
-- '3b_Thor.py' contains the code for scenario 3b, an optimization of LCoE at Thor Wind Farm, incorporating inter-array cables with our proposed substation position, and including CO2eq tax in the total steel mass and cables.
-- '3a_horn_cables.py' contains the code for plotting the cable layout in scenario 3a for Horns Rev 1. It is configured to run on Google Colab and requires access to the respective CSV file.
-- '3b_horn_cables.py' contains the code for plotting the cable layout in scenario 3b for Horns Rev 1. It is configured to run on Google Colab and requires access to the respective CSV file.
-- '3a_thor_cables.py' contains the code for plotting the cable layout in scenario 3a for Thor Wind Farm. It is configured to run on Google Colab and requires access to the respective CSV file.
-- '3b_thor_cables.py' contains the code for plotting the cable layout in scenario 3b for Thor Wind Farm. It is configured to run on Google Colab and requires access to the respective CSV file.
+- 'S1_HR1.py' contains the code for scenario 1 Horn Base, standard wind farm optimization, only using cost of operation and maintenance and monopiles.
+- 'S2_HR1.py' contains the code for scenario 2 Horn Base + CO2eq tax, wind farm optimization adding a CO2 equivalent tax on the steel mass of the wind farm.
+- 'S3_HR1.py' contains the code for scenario 3 Horn Base + Cables, standard wind farm optimization including the cost and optimization of cables, with the current substation position
+- 'S3_HR1_cables.py' contains the code for plotting the cable layout in scenario 3 Horn Base + Cables. It is configured to run on Google Colab and requires access to the respective CSV file.
+- 'S4A_HR1.py' contains the code for scenario 4A Horn Base + CO2eq tax + Cables, wind farm optimization adding CO2 equivalent tax on both the steel mass and the cables, using the current substation position. 
+- 'S4A_HR1_cables.py' contains the code for plotting the cable layout in scenario 4A Horn Base + CO2eq tax + Cables. It is configured to run on Google Colab and requires access to the respective CSV file.
+- 'S4B_HR1.py' contains the code for scenario 4B Horn Base + CO2eq tax + Cables, wind farm optimization adding CO2 equivalent tax on both the steel mass and the cables, using our best guess for a substation position
+- 'S4B_HR1_cables.py' contains the code for plotting the cable layout in scenario 4B Horn Base + CO2eq tax + Cables. It is configured to run on Google Colab and requires access to the respective CSV file.
+  
+- 'S5_T.py' contains the code for scenario 5 Thor Base, standard wind farm optimization, only using cost of operation and maintenance and monopiles.
+- 'S6_T.py' contains the code for scenario 6 Thor Base + CO2eq tax, wind farm optimization adding a CO2 equivalent tax on the steel mass of the wind farm
+- 'S7_T.py' contains the code for scenario 7 Thor Base + Cables, standard wind farm optimization including the cost and optimization of cables, with planned substation position.
+- 'S7_T_cables.py' contains the code for plotting the cable layout in scenario 7 Thor Base + Cables. It is configured to run on Google Colab and requires access to the respective CSV file.
+- 'S8A_T.py' contains the code for scenario 8A Thor Base + CO2eq tax + Cables, wind farm optimization adding CO2 equivalent tax on both the steel mass and the cables, using the planned substation position
+- 'S8A_T_cables.py' contains the code for plotting the cable layout in scenario 8A Thor Base + CO2eq tax + Cables. It is configured to run on Google Colab and requires access to the respective CSV file.
+- 'S8B_T.py' contains the code for scenario 8B Thor Base + CO2eq tax + Cables, wind farm optimization adding CO2 equivalent tax on both the steel mass and the cables, using our best guess for a substation position
+- 'S8B_T_cables.py' contains the code for plotting the cable layout in scenario 8B Thor Base + CO2eq tax + Cables. It is configured to run on Google Colab and requires access to the respective CSV file.
