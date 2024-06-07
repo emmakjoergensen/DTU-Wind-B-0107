@@ -12,8 +12,8 @@ CSV files:
 - 'Optimized_coordinates_S4AHR1.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 4A Horn Base + CO2eq tax + Cables.
 - 'Optimized_coordinates_S4BHR1.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 4B Horn Base + CO2eq tax + Cables.
 - 'Optimized_coordinates_S7T.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 7 Thor Base + Cables.
-- 'Optimized_coordinates_S8AT.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 4A Thor Base + CO2eq tax + Cables.
-- 'Optimized_coordinates_S4BT.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 4B Thor Base + CO2eq tax + Cables.
+- 'Optimized_coordinates_S8AT.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 8A Thor Base + CO2eq tax + Cables.
+- 'Optimized_coordinates_S8BT.csv' contains UTM coordinates of wind turbines positions after optimization on scenario 8B Thor Base + CO2eq tax + Cables.
 
 
 Python files:
